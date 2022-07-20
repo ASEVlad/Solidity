@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "doWork",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"09_lesson_optimization/Optimization.sol": "Un"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"09_lesson_optimization/Optimization.sol": {
+			"keccak256": "0x707cfd43059850a2de63634b9dce336a7ec19c9a895b54709cb6a319e0e44f54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86b14f421574a84272f68e876ed2a8a7b2ecb5483b3ddccf793d175eb4e46213",
+				"dweb:/ipfs/QmYta4m7oAAQuoDhJwdm1vj1nqxzoLMYWu8Xo262615nfD"
+			]
+		}
+	},
+	"version": 1
+}
